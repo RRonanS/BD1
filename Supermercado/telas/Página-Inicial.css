@@ -1,0 +1,73 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 690px;
+}
+
+.u-section-1 .u-list-1 {
+  grid-template-rows: auto;
+  grid-auto-rows: 100%;
+  width: 361px;
+  margin: 80px auto 0;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-template-columns: 100%;
+  min-height: 316px;
+  grid-gap: 30px 30px;
+}
+
+.u-section-1 .u-list-item-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 29px;
+}
+
+.u-section-1 .u-text-1 {
+  letter-spacing: normal;
+  font-size: 1.5rem;
+  text-transform: none;
+  font-weight: 700;
+  margin: 7px 32px 0 auto;
+}
+
+.u-section-1 .u-line-1 {
+  width: 298px;
+  transform-origin: left center 0px;
+  margin: 0 0 0 auto;
+}
+
+.u-section-1 .u-form-1 {
+  height: 141px;
+  width: 305px;
+  margin: -228px auto 88px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding-left: 52px;
+  padding-right: 52px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-btn-1 {
+    padding: 17px 58px 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-list-1 {
+    width: 340px;
+  }
+}
