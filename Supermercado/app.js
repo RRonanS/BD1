@@ -22,7 +22,6 @@ const path = require('path');
 const cheerio = require("cheerio");
 const fs = require("fs");
 const { Client } = require('pg');
-const { quantidades } = require("./classes/estoqueDAO.js");
 
 var estoque = Estoque;
 var sessao = {valida: false, nome: null, cargo: null, cod_acesso: 0}; // Guarda a sessao atual
